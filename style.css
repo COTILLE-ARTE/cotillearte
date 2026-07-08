@@ -213,10 +213,8 @@ color:var(--gris);
 
 .intro .container{
 
-display:grid;
-grid-template-columns:1.05fr .95fr;
-gap:70px;
-align-items:center;
+width:min(92%,900px);
+margin:auto;
 
 }
 
@@ -239,8 +237,15 @@ color:var(--gris);
 
 }
 
+.intro-image{
+
+margin:50px 0;
+
+}
+
 .intro-image img{
 
+width:100%;
 border-radius:var(--radio);
 box-shadow:var(--sombra);
 
@@ -483,12 +488,6 @@ grid-template-columns:repeat(2,1fr);
 
 grid-template-columns:1fr;
 gap:50px;
-
-}
-
-.intro-image{
-
-order:-1;
 
 }
 
