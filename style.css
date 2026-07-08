@@ -736,11 +736,13 @@ font-size:3rem;
 
 .card-watermark{
 
-width:72px;
+width:62px;
 
-right:-12px;
+right:-8px;
 
-bottom:-8px;
+bottom:-6px;
+
+opacity:.045;
 
 }
 
